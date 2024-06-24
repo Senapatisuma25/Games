@@ -76,5 +76,18 @@ button:hover{
     }
     .pg{
         margin-top: 50px;
+        padding:10px;
     }
 }
+@media(max-width:400px) {
+    .container {
+        flex-direction: column;
+        padding:10px;
+        height: auto;
+    }
+    .pg{
+        margin-top: 50px;
+        width: auto;
+    }
+}
+
